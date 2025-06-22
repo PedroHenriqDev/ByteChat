@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteChat.Infra", "ByteChat.Infra\ByteChat.Infra.csproj", "{068BD50E-8696-455C-A0EC-ADD5AA32FA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteChat.API", "ByteChat.API\ByteChat.API.csproj", "{13537FD4-2F4E-4899-9B9E-C9309DEAA048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteChat.Gateway", "ByteChat.Gateway\ByteChat.Gateway.csproj", "{0270EBC7-E06D-4958-9749-E7BA8CA5795D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteChat.Web", "ByteChat.Web\ByteChat.Web.csproj", "{45B59061-30F9-4BDC-9D08-B4799F9FF0A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteChat.Domain", "ByteChat.Domain\ByteChat.Domain.csproj", "{00DD824D-AE0B-4C7D-AB75-D34A8DA6B71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteChat.Communication", "ByteChat.Communication\ByteChat.Communication.csproj", "{6E2EA300-4C13-40A4-BE1B-603529D105E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteChat.Application", "ByteChat.Application\ByteChat.Application.csproj", "{F2237BF2-97B5-48FA-85B7-25EBBEBF286F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{068BD50E-8696-455C-A0EC-ADD5AA32FA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068BD50E-8696-455C-A0EC-ADD5AA32FA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068BD50E-8696-455C-A0EC-ADD5AA32FA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068BD50E-8696-455C-A0EC-ADD5AA32FA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13537FD4-2F4E-4899-9B9E-C9309DEAA048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13537FD4-2F4E-4899-9B9E-C9309DEAA048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13537FD4-2F4E-4899-9B9E-C9309DEAA048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13537FD4-2F4E-4899-9B9E-C9309DEAA048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0270EBC7-E06D-4958-9749-E7BA8CA5795D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0270EBC7-E06D-4958-9749-E7BA8CA5795D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0270EBC7-E06D-4958-9749-E7BA8CA5795D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0270EBC7-E06D-4958-9749-E7BA8CA5795D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B59061-30F9-4BDC-9D08-B4799F9FF0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B59061-30F9-4BDC-9D08-B4799F9FF0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B59061-30F9-4BDC-9D08-B4799F9FF0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B59061-30F9-4BDC-9D08-B4799F9FF0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DD824D-AE0B-4C7D-AB75-D34A8DA6B71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DD824D-AE0B-4C7D-AB75-D34A8DA6B71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DD824D-AE0B-4C7D-AB75-D34A8DA6B71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DD824D-AE0B-4C7D-AB75-D34A8DA6B71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2EA300-4C13-40A4-BE1B-603529D105E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2EA300-4C13-40A4-BE1B-603529D105E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2EA300-4C13-40A4-BE1B-603529D105E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2EA300-4C13-40A4-BE1B-603529D105E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2237BF2-97B5-48FA-85B7-25EBBEBF286F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2237BF2-97B5-48FA-85B7-25EBBEBF286F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2237BF2-97B5-48FA-85B7-25EBBEBF286F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2237BF2-97B5-48FA-85B7-25EBBEBF286F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
